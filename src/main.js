@@ -4,12 +4,17 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-Vue.config.productionTip = false
 
-/* eslint-disable no-new */
+Vue.config.productionTip = false;
+
+import './styles/style.less';//基础样式
+
+//import remInit from './config/remConfig';// 启用rem
+//remInit();//rem 初始化
+
+/* vue init */
 new Vue({
   el: '#app',
   router,
-  components: { App },
-  template: '<App/>'
+  render: h => h(App)
 })
