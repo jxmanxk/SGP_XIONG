@@ -7,8 +7,8 @@ import router from './router'
 
 Vue.config.productionTip = false;
 
-import './styles/style.less';//基础样式
-
+import './styles/style.less';// 基础样式
+import './assets/xio_iconfont/iconfont.css';// iconfont
 //import remInit from './config/remConfig';// 启用rem
 //remInit();//rem 初始化
 
